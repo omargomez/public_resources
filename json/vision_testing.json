@@ -37,6 +37,10 @@
         { "name": "testFromWeb3",
             "source": "video2",
             "script" : "(play) (10, seek, 5) (10, seek, 10) (10, seek, 15)  (10, seek, 20)"
+        },
+        { "name": "testFromWeb4",
+            "source": "video1",
+            "script" : "(play) (2, seek, 18)"
         }
     ]
 }
