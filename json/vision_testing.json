@@ -1,0 +1,42 @@
+{
+    "sources": [
+        { "name": "video1",
+            "autoplay": false,
+            "playType": "st",
+            "playerName": "Testplayer",
+            "playerType": "iOS",
+            "playerVersion": "1.0",
+            "videoId": "888-222-333",
+            "videoLength": 20,
+            "videoName": "TestName A",
+            "videoSourceId": "222-333-888",
+            "videoType": "aType"
+        },
+        { "name": "video2",
+            "autoplay": false,
+            "playType": "st",
+            "playerName": "Testplayer",
+            "playerType": "iOS",
+            "playerVersion": "1.0",
+            "videoId": "888-222-333",
+            "videoLength": 40,
+            "videoName": "TestName B",
+            "videoSourceId": "222-333-888",
+            "videoType": "aType"
+        }
+    ],
+    "tests": [
+        { "name": "testFromWeb1",
+            "source": "video1",
+            "script" : "(play) (10, pause) (2, play)"
+        },
+        { "name": "testFromWeb2",
+            "source": "video1",
+            "script" : "(play) (10, seek, 5) (5, pause) (2, play) (3, seek, 19)"
+        },
+        { "name": "testFromWeb3",
+            "source": "video2",
+            "script" : "(play) (10, seek, 5) (10, seek, 10) (10, seek, 15)  (10, seek, 20)"
+        }
+    ]
+}
