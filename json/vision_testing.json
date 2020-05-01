@@ -1,6 +1,6 @@
 {
     "sources": [
-        { "name": "video1",
+        { "name": "webVideo1",
             "autoplay": false,
             "playType": "st",
             "playerName": "Testplayer",
@@ -12,7 +12,7 @@
             "videoSourceId": "222-333-888",
             "videoType": "aType"
         },
-        { "name": "video2",
+        { "name": "webVideo2",
             "autoplay": false,
             "playType": "st",
             "playerName": "Testplayer",
