@@ -27,19 +27,19 @@
     ],
     "tests": [
         { "name": "testFromWeb1",
-            "source": "video1",
+            "source": "webVideo1",
             "script" : "(play) (10, pause) (2, play)"
         },
         { "name": "testFromWeb2",
-            "source": "video1",
+            "source": "webVideo1",
             "script" : "(play) (10, seek, 5) (5, pause) (2, play) (3, seek, 19)"
         },
         { "name": "testFromWeb3",
-            "source": "video2",
+            "source": "webVideo2",
             "script" : "(play) (10, seek, 5) (10, seek, 10) (10, seek, 15)  (10, seek, 20)"
         },
         { "name": "testFromWeb4",
-            "source": "video1",
+            "source": "webVideo1",
             "script" : "(play) (2, seek, 18)"
         }
     ]
